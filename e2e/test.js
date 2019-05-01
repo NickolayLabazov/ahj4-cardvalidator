@@ -12,7 +12,7 @@ describe('INN/OGRN form', () => {
       // slowMo: 100,
       // devtools: true, // show devTools
     });
-    page = await browser.newPage();    
+    page = await browser.newPage();
   });
   afterAll(async () => {
     await browser.close();
