@@ -8,7 +8,7 @@ describe('INN/OGRN form', () => {
   const baseUrl = 'http://localhost:9000';
   beforeAll(async () => {
     browser = await puppetteer.launch({
-      // headless: false, // show gui
+      // headless: false,  // show gui
       // slowMo: 100,
       // devtools: true, // show devTools
     });
