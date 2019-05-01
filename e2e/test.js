@@ -23,20 +23,20 @@ describe('INN/OGRN form', () => {
   test('valid', async () => {
     await page.goto(baseUrl);
     const form = await page.$('[class=validateForm]');
-    const input = await form.$('[class=input]');      
+    const input = await form.$('[class=input]');
     await input.type('7715964180');
     const submit = await form.$('[class=button]');
     submit.click();
-    await page.waitForSelector('[data-valid=valid]');    
+    await page.waitForSelector('[data-valid=valid]');
   });
 
-   test('invalid', async () => {
+  test('invalid', async () => {
     await page.goto(baseUrl);
     const form = await page.$('[class=validateForm]');
-    const input = await form.$('[class=input]');      
+    const input = await form.$('[class=input]');
     await input.type('1');
     const submit = await form.$('[class=button]');
     submit.click();
-    await page.waitForSelector('[data-valid=invalid]');    
-  }); 
-}); 
+    await page.waitForSelector('[data-valid=invalid]');
+  });
+});

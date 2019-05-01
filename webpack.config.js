@@ -24,7 +24,7 @@ module.exports = {
   devServer: {
     overlay: true,
     contentBase: './src',
-    port: 9000
+    port: 9000,
   },
 
   entry: {

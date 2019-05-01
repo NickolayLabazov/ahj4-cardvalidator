@@ -14,6 +14,11 @@
     },
     "rules": {
         "no-undef": "off",
+        "import/no-extraneous-dependencies": "off",
+        "camelcase": "off",
+        "radix": "off",
+        "no-return-assign": "off",
+        "no-param-reassign": "off",       
         "import/extensions": "off",
         "no-restricted-syntax": "off",
         "guard-for-in": "off",
@@ -21,6 +26,8 @@
         "no-restricted-globals": "off", 
         "class-methods-use-this": "off",
         "eol-last": "off",              
-        "consistent-return": "off"        
+        "consistent-return": "off"  
+        
+        
     }
 }
