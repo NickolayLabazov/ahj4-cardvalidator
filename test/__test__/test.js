@@ -1,5 +1,5 @@
 
-import Validator from '../src/js/validtorcreateclass.js';
+import Validator from '../../src/js/validtorcreateclass.js';
 
 test('validator', () => {
   document.body.innerHTML = '<div id="container"></div>';
