@@ -1,5 +1,4 @@
 module.exports = {
-    verbose: false,    
-    "roots": ["e2e/"],   
-}
-  
+  verbose: false,
+  roots: ['e2e/'],
+};
