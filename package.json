@@ -8,11 +8,10 @@
     "start": "webpack-dev-server --mode development --open",
     "lint": "eslint .",
     "build": "webpack --mode production",
-    "test": "jest --coverage",
+    "test": "jest --testPathPattern='./test/'",
     "coverage": "jest --config ./jest.config.js",
-    "e2e": "jest --testPathPattern='./e2e/'"       
+    "e2e": "jest --testPathPattern='./e2e/'"
   },
-
   "repository": "git+https://github.com/NickolayLabazov/ahj33-gallery.git",
   "author": "Nickolay Labazov",
   "license": "ISC",
