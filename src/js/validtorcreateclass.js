@@ -6,8 +6,8 @@ export default class Validator {
     this.button = 0;
     this.cardsRow = 0;
     this.cards = [
-      '../img/visa.png', '../img/mastercard.png', '../img/americanexpress.png', '../img/discover.png', '../img/jcb.png', '../img/dinersclub.png', '../img/Mir.png',
-      '../img/visaBW.png', '../img/mastercardBW.png', '../img/americanexpressBW.png', '../img/discoverBW.png', '../img/jcbBW.png', '../img/dinersclubBW.png', '../img/MirBW.png',
+      './img/visa.png', './img/mastercard.png', './img/americanexpress.png', './img/discover.png', './img/jcb.png', './img/dinersclub.png', './img/Mir.png',
+      './img/visaBW.png', './img/mastercardBW.png', './img/americanexpressBW.png', './img/discoverBW.png', './img/jcbBW.png', './img/dinersclubBW.png', './img/MirBW.png',
     ];
   }
 
